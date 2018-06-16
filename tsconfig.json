@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "noImplicitAny": false,
+        "sourceMap": false,
+	    "outDir": "build",
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "declaration": true
+    },
+    "include": [
+        "index.ts",
+        "node_modules/dimensions"
+    ]
+}
